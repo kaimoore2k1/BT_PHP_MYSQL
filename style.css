@@ -1,0 +1,138 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #483434;
+    position: relative;
+    background-color: #FFF3E4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 80vw;
+    min-height: 80vh;
+}
+
+header {
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #483434;
+    background-color: #6B4F4F;
+    padding: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ebe8e5;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6B4F4F;
+    border: 1px solid #483434;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #ebe8e5;
+}
+
+article {
+    border: 1px solid #483434;
+    padding: 50px;
+    text-align: justify;
+    margin-bottom: 30px;
+    min-height: 300px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+table {
+    border: 1px solid #483434;
+    width: 100%;
+    text-align: center;
+}
+
+tr th{
+    padding: 20px 0px;
+}
+
+tr td{    
+    padding-bottom: 10px;
+}
+
+td a {
+    color: black;
+}
+
+.returnkq {
+    position: relative;
+    padding: 30px 0px;
+    padding-left: 30px;
+    width: 230px;
+    background-color: #6B4F4F;
+    border: 1px solid #483434;
+    color: #ebe8e5;
+    display: none;
+    bottom: 30px;
+    left: 50px;
+}
+
+.returnkq li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
